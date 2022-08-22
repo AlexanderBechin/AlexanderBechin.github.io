@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>Александр Бечин</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a href="#" class="header__logo">Александр Бечин</a>
+
+            <ul class="header__items">
+                <li><a href="#" class="header__item">Обо мне</a></li>
+                <li><a href="#" class="header__item">Услуги</a></li>
+                <li><a href="#" class="header__item">Кейсы</a></li>
+                <li><a href="#" class="header__item">Прайс</a></li>
+                <li><a href="#" class="header__item">Отзовы</a></li>
+                <li><a href="#" class="header__item">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <div class="intro__information">
+            <h1 class="intro__title">Привет <br> Я Александр Бечин</h1>
+            <h4 class="intro__subtitle">Frontend веб-разработчик</h4>
+            <input type="submit" value="Обо мне" class="intro__btn">
+            <input type="submit" value="Мои работы" class="intro__btn">
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about__title">Обо мне</div>
+        <div class="about__photo">
+        </div>
+        <p class="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec
+            ornare diam. Sed commodo nibh ante
+            facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+        <p class="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec
+            ornare diam. Sed commodo nibh ante
+            facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+        <input type="button" value="Скачать резюме" class="about__btn">
+    </div>
+
+    <div class="skills">
+        <div class="skills__title">ЧТО Я УМЕЮ</div>
+        <div class="skills__items">
+            <div class="skills__item">
+                <div class="skills__icon"><img src="img/laptop.png" alt="Веб-дизайн"></div>
+                <div class="skills__subtitle">Веб-дизайн</div>
+                <div class="skills__info">Lorem ipsum dolor sit amet placerat
+                    facilisis felis mi in tempus eleifend
+                    pellentesque natoque etiam. </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__icon"><img src="img/code.png" alt="Разработка"></div>
+                <div class="skills__subtitle">Разработка</div>
+                <div class="skills__info">Lorem ipsum dolor sit amet placerat
+                    facilisis mi in tempus eleifend
+                    pellentesque.</div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__icon"><img src="img/rocket.png" alt="СЕО-Оптимизация"></div>
+                <div class="skills__subtitle">СЕО-Оптимизация</div>
+                <div class="skills__info">Lorem ipsum dolor sit amet placerat
+                    facilisis felis mi in tempus eleifend
+                    pellentesque natoque etiam.</div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__icon"><img src="img/megafon.png" alt="Маркетинг"></div>
+                <div class="skills__subtitle">Маркетинг</div>
+                <div class="skills__info">orem ipsum dolor sit amet placerat
+                    facilisis felis mi in tempus eleifend
+                    pellentesque natoque .</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cases">
+        <div class="cases__title">Кейсы</div>
+        <div class="cases__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec
+            ornare diamcoccodo nibh ante facilisis.</div>
+        <div class="cases__image"><img src="img/project_image.jpg" alt="Project photo"></div>
+        <div class="cases__information-wrapper">
+            <div class="cases__contacts-info">
+                <div class="cases__subtitle">CLIENT:</div>
+                <div class="cases__project-description">Какая-то компания</div>
+                <div class="cases__subtitle">WEBSITE:</div>
+                <a class="cases__link" href="#">http://www.somedomain.com</a>
+                <input type="button" value="VISIT LIVE SITE" class="cases__btn">
+            </div>
+            <div class="cases__project-info">
+                <div class="cases__subtitle">Название проекта</div>
+                <div class="cases__project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do
+                    eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cost-calculator">
+        <div class="cost-calculator__inner">
+            <div class="cost-calculator__title">Расчет стоимости</div>
+            <form action="#" class="cost-calculator__form">
+                <div class="cost-calculator__subtitle">ТИП САЙТА</div>
+                <select id="siteType" name="siteType" class="cost-calculator__selector">
+                    <option value="Выберете пункт...">Выберете пункт...</option>
+                    <option value="Лендинг">Лендинг</option>
+                    <option value="Интернет-магазин">Интернет-магазин</option>
+                    <option value="Сайт-визитка">Сайт-визитка</option>
+                </select>
+
+                <div class="cost-calculator__subtitle">ДИЗАЙН</div>
+                <select id="design" name="design" class="cost-calculator__selector">
+                    <option value="Выберете пункт...">Выберете пункт...</option>
+                </select>
+
+                <div class="cost-calculator__subtitle">АДАПТИВНОСТЬ</div>
+                <select id="adaptive" name="adaptive" class="cost-calculator__selector">
+                    <option value="Выберете пункт...">Выберете пункт...</option>
+                </select>
+            </form>
+
+            <div class="cost_calculator__counters">
+                <div class="cost-calculator__counters-titles">
+                    <div class="cost-calculator__counter-title">Сроки</div>
+                    <div class="cost-calculator__counter-title">Стоимость</div>
+                </div>
+                <div class="cost-calculator__counters__values">
+                    <div class="cost-calculator__counters__value">0</div>
+                    <div class="cost-calculator__counters__value">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="statistic">
+        <div class="statistic__title">НЕМНОГО СТАТИСТИКИ</div>
+        <div class="statistic__items">
+            <div class="statistic__item">
+                <div class="statistic__icon"><img src="img/smile.png" alt="Smile"></div>
+                <div class="statistic__counter">120</div>
+                <div class="statistic__subtitle">СЧАСТЛИВЫХ КЛИЕНТОВ</div>
+            </div>
+
+            <div class="statistic__item">
+                <div class="statistic__icon"><img src="img/code1.png" alt="Code icon"></div>
+                <div class="statistic__counter">4,600</div>
+                <div class="statistic__subtitle">ЧАСОВ РАБОТЫ</div>
+            </div>
+
+            <div class="statistic__item">
+                <div class="statistic__icon"><img src="img/checked.png" alt="Checked"></div>
+                <div class="statistic__counter">340</div>
+                <div class="statistic__subtitle">ПРОЕКТОВ ЗАВЕРШЕНО</div>
+            </div>
+
+            <div class="statistic__item">
+                <div class="statistic__icon"><img src="img/award.png" alt="award"></div>
+                <div class="statistic__counter">23</div>
+                <div class="statistic__subtitle">НАГРАД ПОЛУЧЕНО</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="testimonials__title">ОТЗЫВЫ</div>
+        <div class="testimonials__image"><img src="img/Avatar.png" alt="Testimonial author"></div>
+        <div class="testimonials__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo
+            nec ornare diam. Sed commodo nibh ante
+            facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</div>
+        <div class="testimonials__author"> <span>Михаил</span>, Ген директор ПАО “Газпром”.</div>
+        <div class="testimonials__btns">
+            <span class="testimonials__btn active"></span>
+            <span class="testimonials__btn"></span>
+            <span class="testimonials__btn"></span>
+        </div>
+    </div>
+
+    <div class="contacts">
+        <div class="contacts__title">МОИ КОНТАКТЫ</div>
+        <div class="contacts__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec
+            ornare diamcoccodo </div>
+        <div class="contacts__items">
+            <div class="contacts__item">
+                <div class="contacts__icon"><img src="img/geo.png" alt="Location"></div>
+                <div class="contacts__text">Санкт-Петербург <br> Невский проспект 11</div>
+            </div>
+            <div class="contacts__item">
+                <div class="contacts__icon"><img src="img/mail.png" alt="E-mail"></div>
+                <div class="contacts__text">info@companyname.com</div>
+            </div>
+            <div class="contacts__item">
+                <div class="contacts__icon"><img src="img/phone.png" alt="Phone"></div>
+                <div class="contacts__text">+7 999 999-99-99</div>
+            </div>
+        </div>
+
+        <form action="#" class="contacts__form">
+            <div class="contacts-form__title">ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</div>
+            <input type="text" name="Имя" id="name" class="contacts-form__input" placeholder="Имя">
+            <input type="email" name="Email" id="email" class="contacts-form__input contacts-form__input"
+                placeholder="Email">
+            <textarea name="Сообщение" id="message" cols="30" rows="10" placeholder="Сообщение"
+                class="contacts__form-messagebox"></textarea>
+            <input type="submit" value="Отправить" class="contacts__btn">
+        </form>
+
+        <div class="contacts__social-row">
+            <a class="contacts__social-icon"><img src="img/fb.png" alt="Facebook"></a>
+            <a class="contacts__social-icon"><img src="img/twitter.png" alt="Twitter"></a>
+            <a class=" contacts__social-icon"><img src="img/ball.png" alt="Мяч"></a>
+            <a class="contacts__social-icon"><img src="img/cat.png" alt="Github"></a>
+            <a class="contacts__social-icon"><img src="img/inst.png" alt="Instagram"></a>
+            <a class="contacts__social-icon"><img src="img/in.png" alt="LinkedIn"></a>
+        </div>
+
+    </div>
+
+    <div class="map"></div>
+
+    <footer class="footer">
+        <div class="footer__title">Copyright © 2022 Александр Бечин. Design by Web</div>
+    </footer>
+
+</body>
+
+</html>
